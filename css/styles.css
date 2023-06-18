@@ -477,7 +477,7 @@ img {
     margin-right: 120px;
 }
 
-.soc-footer-paragraph {
+.footer-paragraph {
     font-weight: 500;
     color: var(--white-background);
     margin-bottom: 16px;
@@ -676,4 +676,12 @@ img {
 
 .project-link:is(:hover,:focus) .animation-paragraph {
     transform: translateY(0%);
+}
+
+/* forms */
+
+.footer-container-form {
+    margin-left: 80px;
+    width: 453px;
+    height: 80px;
 }
