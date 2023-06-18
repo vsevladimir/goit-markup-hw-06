@@ -477,7 +477,7 @@ img {
     margin-right: 120px;
 }
 
-.footer-paragraph {
+.soc-footer-paragraph {
     font-weight: 500;
     color: var(--white-background);
     margin-bottom: 16px;
@@ -684,4 +684,12 @@ img {
     margin-left: 80px;
     width: 453px;
     height: 80px;
+}
+
+.footer-form-header {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
 }
