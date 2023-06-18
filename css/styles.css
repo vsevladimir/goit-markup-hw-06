@@ -693,3 +693,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--white-background);
 }
+
+.form-footer {
+    display: flex;
+    
+}
