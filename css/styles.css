@@ -717,7 +717,8 @@ img {
 }
 
 .user-name:focus {
-    border-color: var(--primary-brand)
+    border-color: var(--primary-brand);
+    fill: var(--primary-brand);
 }
 
 .input-svg-modal {
@@ -727,11 +728,6 @@ img {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.input-svg-modal:focus {
-    fill: var(--primary-brand);
-}
-
 
 .footer-container-form {
     margin-left: 80px;
