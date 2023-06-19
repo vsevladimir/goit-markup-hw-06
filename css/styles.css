@@ -693,12 +693,16 @@ img {
 }
 
 .name-label-modal {
-    font-style: 12px;
+    font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--subtle-text);
     display: block;
     margin-bottom: 4px;
+}
+
+.svg-label-modal {
+    position: relative;
 }
 
 .footer-container-form {
