@@ -688,11 +688,11 @@ img {
     margin-bottom: 16px;
 }
 
-.user-name-container {
+.modal-container {
     margin-bottom: 8px;
 }
 
-.name-label-modal {
+.label-modal {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -705,7 +705,7 @@ img {
     position: relative;
 }
 
-.user-name {
+.user-data {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -716,7 +716,7 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-name:focus {
+.user-data:focus {
     border-color: var(--primary-brand);
     fill: var(--primary-brand);
 }
@@ -729,7 +729,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-name:focus + .input-svg-modal {
+.user-data:focus + .input-svg-modal {
     fill: #4D5AE5;
 }
 
