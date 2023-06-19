@@ -681,6 +681,26 @@ img {
 
 /* forms */
 
+.modal-title {
+    font-weight: 500;
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 16px;
+}
+
+.user-name-container {
+    margin-bottom: 8px;
+}
+
+.name-label-modal {
+    font-style: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text);
+    display: block;
+    margin-bottom: 4px;
+}
+
 .footer-container-form {
     margin-left: 80px;
     width: 453px;
@@ -700,10 +720,5 @@ img {
 
 }
 
-.modal-title {
-    font-weight: 500;
-    text-align: center;
-    color: var(--dark);
-    margin-bottom: 16px;
-    
-}
+
+
