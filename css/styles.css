@@ -784,6 +784,11 @@ img {
     fill: transparent;
 }
 
+.modal-checkbox-input:checked + .mod-checkbox-span {
+    background-color: var(--pressed-state);
+    border: none;
+}
+
 .footer-container-form {
     margin-left: 80px;
     width: 453px;
