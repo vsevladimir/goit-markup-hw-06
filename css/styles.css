@@ -784,7 +784,7 @@ img {
     fill: transparent;
 }
 
-.modal-checkbox-input:checked + .mod-checkbox-span {
+.modal-checkbox-input:checked + .modal-checkbox-label span {
     background-color: var(--pressed-state);
     border: none;
 }
