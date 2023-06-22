@@ -838,6 +838,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-background);
+    position: relative;
 }
 
 .footer-input {
@@ -852,6 +853,9 @@ img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: var(--white-background);
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .footer-input::placeholder {
@@ -875,10 +879,14 @@ img {
     border: none;
     border-radius: 4px;
     background-color: var(--primary-brand);
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .subscribe-footer-img {
     margin-left: 16px;
+    fill: var(--white-background);
 }
 
 .footer-form {
@@ -886,4 +894,9 @@ img {
     gap: 24px;
 }
 
+.footer-container-form {
+    position: relative;
+    width: 453px;
+    height: 80px;
+}
 
