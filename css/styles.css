@@ -816,6 +816,7 @@ img {
     margin-left: 80px;
     width: 453px;
     height: 80px;
+    display: flex;
 }
 
 .footer-form-header {
@@ -826,7 +827,7 @@ img {
     color: var(--white-background);
 }
 
-.form-footer {
+.footer-container-form {
     display: flex;
 }
 
@@ -864,6 +865,11 @@ img {
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
 }
 
 
