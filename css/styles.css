@@ -795,6 +795,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-background);
+    cursor: pointer;
+    background-color: var(--primary-brand);
+    border: none;
+    border-radius: 4px;
     
 }
 
