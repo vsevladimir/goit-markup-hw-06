@@ -787,6 +787,11 @@ img {
 .modal-checkbox-input:checked + .modal-checkbox-label span {
     background-color: var(--pressed-state);
     border: none;
+    fill: var(--light);
+}
+
+.modal-privacy {
+    color: var(--primary-brand);
 }
 
 .footer-container-form {
