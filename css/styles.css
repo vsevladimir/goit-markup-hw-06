@@ -874,7 +874,11 @@ img {
     border-color: var(--primary-brand);
     border: none;
     border-radius: 4px;
-    
+    background-color: var(--primary-brand);
+}
+
+.subscribe-footer-img {
+    margin-left: 16px;
 }
 
 .footer-form {
